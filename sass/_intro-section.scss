@@ -1,0 +1,73 @@
+.intro-section {
+  padding: 5em 0;
+  .greeting {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: $fontStack;
+    margin-bottom: 1em;
+    i {
+      color: $sec-clr;
+    }
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: $title;
+    position: relative;
+    .first-letter {
+      font-size: 8rem;
+    }
+    .first {
+      letter-spacing: -0.15em;
+    }
+    .second {
+      letter-spacing: -0.025em;
+    }
+    .third {
+      letter-spacing: -0.1em;
+    }
+  }
+  .about {
+    width: 60%;
+    margin-top: 1.5em;
+    font-size: 1rem;
+    line-height: 1.5em;
+    .skills {
+      font-size: 1.2rem;
+      font-family: $title;
+    }
+    .skills-fl {
+      font-size: 2rem;
+    }
+    .skills-fl-1 {
+      letter-spacing: -0.075em;
+    }
+    .skills-fl-3 {
+      letter-spacing: -0.1em;
+    }
+  }
+  .btn {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    transition: $transition;
+  }
+  .btn-my {
+    border: 1px solid $pri-clr;
+    margin-right: 0.5em;
+  }
+  .btn-my:hover {
+    background-color: $pri-clr;
+    color: $pri-bgc;
+  }
+  .btn-cm {
+    border: 1px solid $sec-clr;
+    color: $sec-clr;
+  }
+  .btn-cm:hover {
+    background-color: $sec-clr;
+    color: $pri-bgc;
+  }
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: $pri-clr;
+  font-family: $fontStack;
+  background-color: $pri-bgc;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: $pri-clr;
+  text-decoration: none;
+  transition: $transition;
+}
+a:hover {
+  color: $sec-clr;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}

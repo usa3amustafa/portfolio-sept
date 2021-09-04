@@ -1,0 +1,30 @@
+header {
+  background-color: $sec-bgc;
+  padding: 1em;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  h1 {
+    flex-basis: 40%;
+    flex-shrink: 1;
+  }
+  nav {
+    flex: 1;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    ul {
+      display: flex;
+      font-size: 1.5rem;
+    }
+    #menu-items {
+      gap: 2.5em;
+    }
+    #social-icons {
+      gap: 1.5em;
+    }
+  }
+}
