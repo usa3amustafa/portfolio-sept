@@ -1,0 +1,27 @@
+.services {
+  margin-bottom: 6em;
+  .container {
+    .service {
+      margin: 2em;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      .service-img {
+        flex: 1;
+        height: 300px;
+        width: 100%;
+        background-color: #ccc;
+      }
+      .service-text {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .service-title {
+        padding: 1em;
+      }
+    }
+  }
+}

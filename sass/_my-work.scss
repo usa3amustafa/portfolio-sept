@@ -1,0 +1,36 @@
+.my-work {
+  margin-bottom: 6em;
+  .container {
+    .projects {
+      display: grid;
+      grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+      .project {
+        margin: 2em;
+        .img {
+          width: 100%;
+          height: 17em;
+          background-color: #ccc;
+        }
+        .project-title {
+          cursor: pointer;
+          font-size: 1.5em;
+          margin: 0.7em 0;
+        }
+        .project-description {
+          width: 90%;
+          margin-bottom: 1em;
+        }
+        .skills-used {
+          .tag {
+            background-color: $grey-clr;
+            color: $pri-clr;
+            font-weight: 600;
+            display: inline-block;
+            padding: 0.5em 0.75em;
+            border-radius: 0.15em;
+          }
+        }
+      }
+    }
+  }
+}
