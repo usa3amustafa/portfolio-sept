@@ -1,0 +1,71 @@
+.container-sm {
+  @include mobile {
+    width: 90%;
+  }
+}
+.gen-title {
+  @include mobile {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}
+header {
+  @include mobile {
+    padding: 0.7em 0;
+    h1 {
+      font-size: 1.25rem;
+    }
+    nav {
+      ul {
+        font-size: 1rem;
+      }
+      #social-icons {
+        gap: 1em;
+      }
+    }
+  }
+}
+.intro-section {
+  @include mobile {
+    padding: 3em 0;
+    .greeting {
+      font-size: 1rem;
+      margin-bottom: 1em;
+    }
+    h1 {
+      font-size: 1.5rem;
+      .first-letter {
+        font-size: 5rem;
+      }
+    }
+    .about {
+      width: 100%;
+      margin-top: 1em;
+      font-size: 0.8rem;
+      line-height: 1.7em;
+      .skills {
+        font-size: 1rem;
+      }
+      .skills-fl {
+        font-size: 1.5rem;
+      }
+    }
+    .btn {
+      font-size: 1rem;
+      padding: 0.5em 0.75em;
+    }
+  }
+}
+.my-work {
+  @include mobile {
+    .container {
+      .projects {
+        display: block;
+        .project {
+          margin-bottom: 3em;
+        }
+      }
+    }
+  }
+}

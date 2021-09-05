@@ -20,11 +20,22 @@ header {
       display: flex;
       font-size: 1.5rem;
     }
-    #menu-items {
-      gap: 2.5em;
-    }
     #social-icons {
       gap: 1.5em;
+    }
+  }
+  @include mobile {
+    padding: 0.7em 0;
+    h1 {
+      font-size: 1.25rem;
+    }
+    nav {
+      ul {
+        font-size: 1rem;
+      }
+      #social-icons {
+        gap: 1em;
+      }
     }
   }
 }

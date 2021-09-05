@@ -10,7 +10,15 @@
         flex: 1;
         height: 300px;
         width: 100%;
-        background-color: #ccc;
+      }
+      .service-img-1 {
+        background: url('../img/img-4.jpg') center/cover no-repeat;
+      }
+      .service-img-2 {
+        background: url('../img/img-2.jpg') center/cover no-repeat;
+      }
+      .service-img-3 {
+        background: url('../img/img-3.png') center/cover no-repeat;
       }
       .service-text {
         flex: 1;
