@@ -59,11 +59,52 @@ header {
 }
 .my-work {
   @include mobile {
+    margin-bottom: 3em;
     .container {
       .projects {
         display: block;
         .project {
           margin-bottom: 3em;
+        }
+      }
+    }
+  }
+}
+.services {
+  @include mobile {
+    margin-bottom: 3em;
+    .container {
+      .service {
+        display: block;
+        .service-text {
+          align-items: flex-start;
+        }
+        .service-title {
+          padding: 1em 0;
+        }
+      }
+    }
+  }
+}
+.contact-form {
+  @include mobile {
+    .container {
+      .form-main {
+        display: flex;
+        flex-direction: column;
+        .info {
+          align-items: center;
+          flex-direction: column;
+          padding: 3em;
+          h3 {
+            font-size: 1rem;
+          }
+        }
+        .contact {
+          form {
+            display: block;
+            padding: 2em;
+          }
         }
       }
     }

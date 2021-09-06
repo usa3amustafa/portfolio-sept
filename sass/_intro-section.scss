@@ -6,7 +6,7 @@
     font-family: $fontStack;
     margin-bottom: 1em;
     i {
-      color: $sec-clr;
+      color: #c58c85;
     }
   }
   h1 {
@@ -63,11 +63,11 @@
     color: $pri-bgc;
   }
   .btn-cm {
-    border: 1px solid $sec-clr;
-    color: $sec-clr;
+    border: 1px solid $green-clr;
+    color: $green-clr;
   }
   .btn-cm:hover {
-    background-color: $sec-clr;
-    color: $pri-bgc;
+    background-color: $green-clr;
+    color: $pri-clr;
   }
 }
